@@ -1,0 +1,168 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .body {}
+
+            p {
+                line-height: 1.5;
+            }
+
+            .title {
+                letter-spacing: 0px;
+                text-align: center;
+                text-decoration: underline;
+                text-transform: uppercase;
+                font-family: fantasy;
+                font-size: 50px;
+            }
+
+            .content>p:nth-child(2) {
+                word-spacing: 30px;
+                text-align: center;
+                text-transform: capitalize;
+                font-variant: small-caps;
+                font-weight: bold;
+                font-size: 70px;
+            }
+
+            .subtitle {
+                text-indent: 20%;
+                text-align: center;
+                text-transform: capitalize;
+                font-family: Verdana, sans-serif;
+                font-style: italic;
+                font-size: 100px;
+            }
+
+            .main {
+                border: 1px solid blue;
+                width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                min-height: 690px;
+                background-color: #8B0A50;
+                background-image: url('./imagens1/julius1.jpg');
+                background-attachment: fixed;
+                background-position: 20px 20px;
+                background-repeat: no-repeat;
+                background-position: bottom;
+            }
+
+            a {
+                font-size: 20px;
+                border: 1px solid white;
+                background-color: white
+            }
+
+            a:link {
+                text-decoration: none;
+                color: blue
+            }
+
+            a:visited {
+                color: black;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: red;
+                text-style: italic;
+            }
+
+            ul {
+                list-style-position: inside;
+                list-style-type: armenian;
+            }
+
+            ul.menu,
+            ul.menu ul {
+                list-style: none;
+            }
+
+            ul.menu ul {
+                position: absolute;
+                left: 200px;
+                float: left;
+                display: block;
+            }
+
+            .menu a,
+            .menu a:hover,
+            .menu a:visite,
+            .menu a:link {
+                border: none;
+                color: white;
+                background-color: white;
+                font-style: 20px;
+                font-weight: normal;
+            }
+
+            ul.menu li {
+                border: 1px solid red;
+                line-height: 30px;
+                width: 200px;
+            }
+
+            ul.menu li+li {
+                border-top: none;
+            }
+
+            ul.menu li > ul {
+                display: none;
+            }
+            ul.menu li:hover > ul {
+                display: block;
+                magin-top: -33px;
+            }
+        </style>
+    </body>
+    </div>
+
+    <body>
+        <div class="body">
+            <div class="main">
+                <p class="title">css</p>
+                <div class="content">
+                    <p class="subtitle">frontend</p>
+                    <p>html css javascript</p>
+                    <a href="https://www.google.com.br/?gws_rd=ssl">Google</a>
+
+                </div>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
+
+                <h3>Menu 1</h3>
+                <ul class="menu">
+                    <ul>
+                        <li>Item 1.1</li>
+                        <li>Item 1.2</li>
+
+                    <li><a href="javascript:void()">item 1</a></li>
+                    <li><a href="javascript:void()">Item 2</a></li>
+                    <li><a href="javascript:void()">Item 3</a></li>
+                    <li><a href="javascript:void()">Item 4</a></li>
+                    <li><a href="javascript:void()">Item 5</a></li>
+                    </ul>
+            </div>
+    </body>
+
+
+    </html>
